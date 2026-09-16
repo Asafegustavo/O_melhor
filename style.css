@@ -1,21 +1,21 @@
 body{
-background-color: #fd07fdfb
+background-color: #000000fb
     
 }
 
 form{
 
-background-color: blue;
+background-color: rgb(255, 255, 255);
 
 padding: 20px;
 margin: 50px auto;
 
-border: 10x solid #ff0000;
+border: 10x solid #504d4d;
 border-radius: 10px;
 
 }
 
-isabel{
+label{
 
 font-weigth: bold;
 
@@ -31,6 +31,7 @@ margin-button: 15px;
 
 button{
 
+padding: 10px 20px;
 cursor: pointer;
 
 
