@@ -2,3 +2,39 @@ body{
 background-color: #fd07fdfb
     
 }
+
+form{
+
+background-color: blue;
+
+padding: 20px;
+margin: 50px auto;
+
+border: 10x solid #ff0000;
+border-radius: 10px;
+
+}
+
+isabel{
+
+font-weigth: bold;
+
+}
+
+input{
+
+width: 1000%;
+padding: 10px;
+margin-button: 15px;
+
+}
+
+button{
+
+cursor: pointer;
+
+
+
+
+
+}
