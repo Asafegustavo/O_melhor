@@ -1,0 +1,373 @@
+/* ==================== */
+/* configurações gerais */
+/* ==================== */
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: rgb(40, 6, 230);
+    color:rgb(255, 255, 255) 
+    rgb(0, 247, 234)
+
+}
+
+a
+{
+
+text-decoration: none;
+color: beige;
+
+}
+
+/* ==================== */
+/* MENU /*
+/* ==================== */
+
+header
+{
+
+height: 80px;
+padding: 0 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(23, 37, 230);
+border-bottom: 1px solid;
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+.logo h2 {
+
+font-size: 26px;
+
+}
+
+.logo span {
+
+    color: brown;
+}
+
+nav {
+
+    display: flex;
+}
+
+nav a {
+
+    color: #535353;
+}
+
+nav a:hover {
+
+    color: #7c5cff;
+}
+
+/* ==================== */
+/* INICIO */
+/* ==================== */
+
+.inicio {
+
+min-height: calc(100vh - 80px);
+padding: 80px 10%;
+display: flex;
+align-items: center;
+background-color: black;
+}
+
+.inicio-conteudo {
+
+    max-width: 750px;
+}
+
+.apresentação {
+
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inicioh1 {
+
+    font-size: 70px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.inicioh2 {
+
+    font-size: 32px;
+    color: azure;
+    margin-bottom: 25px;
+}
+
+.descrição {
+
+    max-width: 600px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+/*==================*/
+/*  BOTÕES */
+/*==================*/
+
+.botoes {
+
+    display: flex;
+    gap: 15px;
+}
+
+.botao {
+
+display: inline-block;
+background-color: #7c5cff;
+color: aliceblue;
+padding: 13px 25px;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3;
+}
+
+.botao:hover {
+
+    background-color: #7c5cff;
+    transform: translate(-3px);
+}
+
+.botao-secundario {
+
+    background-color: aliceblue;
+    border: 1px solid;
+    color: #7c5cff;
+}
+
+.botao-secundario:hover {
+
+background-color: #7c5cff;
+color: black;
+}
+
+/* =================== */
+/* SEÇÕES */
+/* =================== */
+
+.section {
+
+    padding: 100px 10%;
+}
+
+.titulo-secao h2 {
+
+    margin-bottom: 50px;
+}
+
+.titulo-secao p {
+
+    color: #7c5cff;
+    font-size: 14px;
+    font-weight: bolf;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* =========== */
+/* SOBRE */
+/* =========== */
+
+.sobre {
+
+    background-color: black;
+}
+
+.sobre-conteudo {
+
+    display: flex;
+    color: aliceblue;
+}
+
+.sobre-texto {
+
+    flex: 1;
+    color: aliceblue;
+}
+
+.sobretexto p {
+
+    margin-bottom: 20px;
+}
+
+.habilidades {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.habildades h3 {
+
+    margin-bottom: 3px;
+}
+
+.habilidade p {
+
+    color: aliceblue;
+    font-size: 14px;
+}
+
+/* ========== */
+/* PROJETO */
+/* ========== */
+
+.projeto-secao {
+
+    background-color: #0f0f14;
+}
+
+.projetos {
+
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+
+    flex: 1;
+    background-color: #0f0f14;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 12px;
+    transition: 0.3;
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+    background-color: #7c5cff;
+}
+
+.numero-projeto {
+
+    color: #7c5cff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card p {
+
+    color: #9c9cab;
+    margin-bottom: 25px;
+}
+
+.card a {
+
+    color: #7c5cff;
+    font-weight: bold;
+}
+
+/* ============ */
+/* TECNOLOGIAS */ 
+/* ============ */
+
+.tecnologias {
+
+    display: flex;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.tecnologias.span {
+
+    background-color: #0f0f14;
+     color: #9c9cab;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-size: 12px;
+}
+
+/* ============== */
+/* CONTATO */
+/* ============== */
+
+.contato {
+
+    background-color: black;
+    text-align: center;
+}
+
+.contato.titulo-secao {
+
+    margin-bottom: 20px;
+}
+
+.contato-texto {
+
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.contato-links {
+
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.contato-links a {
+
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s
+}
+
+.contato-links a:hover {
+
+    border-color: #6d0fd8;
+    color: #7c5cff;
+    transform: translateY(-3px);
+}
+
+/* ========== */
+/* RODAPÉ */
+/* ========== */
+
+footer {
+
+    padding: 25px 10%;
+    background-color: #535353;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+/*======= */
+/* RESPONSIVIDADE */
+/* ====== */
+
+@media (max-width 800px)

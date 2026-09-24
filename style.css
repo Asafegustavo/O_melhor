@@ -1,16 +1,16 @@
 body{
-background-color: #000000fb
+background-color: #6b6b6bfb
     
 }
 
 form{
 
-background-color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
 
 padding: 20px;
 margin: 50px auto;
 
-border: 10x solid #504d4d;
+border: 10x solid #fa0000;
 border-radius: 10px;
 
 }
