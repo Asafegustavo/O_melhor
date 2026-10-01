@@ -13,19 +13,15 @@
     <!--MENU-->
 
     <header>
-
         <div class="logo">
             <h2>asafe <span>gustavo</span></h2>
         </div>
 
         <nav>
-
             <a href="#inicio"> inicio</a>
             <a href="#sobre"> sobre</a>
             <a href="#pojeto"> projeto</a>
             <a href="#contato"> contato</a>
-
-
         </nav>
     </header>
 
