@@ -1,52 +1,142 @@
-<?php
-
-$nome = $_POST["nome"];
-$idade = $_POST["idade"];
-
-$resultado = "";
-
-if ($idade >= 18) {
-    $resultado = "é de maior";
-} else {
-    $resultado = "é de menor";
-}
-
-
-
-
-
-
-?>
-
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>autenticador de idade</title>
-    <link rel="stylesheet" href="idade.css">
+    <title>asafe | portifolio</title>
+    <link rel="'stylesheet" href="portifolio.css">
 </head>
-
-
 
 <body>
 
+    <!--MENU-->
 
-    <h1>cadastro</h1>
+    <header>
 
-    <form method="POST">
-        <label>Nome:</label>
-        <input type="text" class="Nome" id="nome" name="nome">
+        <div class="logo">
+            <h2>asafe <span>gustavo</span></h2>
+        </div>
 
-        <label>IDADE:</label>
-        <input type="number" class="idade" id="idade" name="idade">
+        <nav>
 
-        <button type="submit"> Cadastrar</button>
-    </form>
+            <a href="#inicio"> inicio</a>
+            <a href="#sobre"> sobre</a>
+            <a href="#pojeto"> projeto</a>
+            <a href="#contato"> contato</a>
 
-    <p> <?= $resultado ?> </p>
+
+        </nav>
+    </header>
+
+    <!--CONTEUDO PRINCIPAL-->
+
+    <main>
+
+        <!--SESSÂO-->
+
+        <section id="inicio" class="inicio"></section>
+
+        <div class="inicio conteudo"></div>
+        <p class="apresentaçâo" Olá, eu sou> </p>
+        <h1> Asafe</h1>
+        <h2>desenvolvedor de sistema</h2>
+        <p class="descriçâo"></p>
+
+        Sou um programador dedicado
+        <p>
+        <div class="botoes">
+            <a href="projetos" class="botoes"> ver projetos</a>
+            <a href="contato" class="botao botao secundario"> entrar em contato</a>
+        </div>
+        </div>
+        <section>
+
+            <!--SOBRE-->
+
+        </section id=sobre class=sobre>
+        <div class="titulo-seção"></div>
+        <p>conheça um pouco</p>
+        <h2> sobre mim</h2>
+        </div>
+        <div class="sobre conteudo">
+            <div class="sobre-texto"></div>
+            <p>
+                Sou desenvolvedor de sistemas muito dedicado
+                amo me dedicar ao meu trabalho
+            </p>
+            <p>
+                atualmente estudo muito sobre TI
+            </p>
+        </div>
+        <div class="habilidades">
+            <h3>HTML</h3>
+            <p> Estilização e criação de paginas web.</p>
+        </div>
+        <div class="habilidades">
+            <h3>CSS</h3>
+            <p> Estilização e criação de interface.</p>
+        </div>
+        <div class="habilidades">
+            <h3>PHP</h3>
+            <p> Desenvolvedor de aplicativos web.</p>
+        </div>
+        </div>
+        </section id="projetos" class="projetos-seção">
+        <div class="projetos-seção">
+            <p> alguns trabalhos</p>
+            <h2>meus projetos</h2>
+        </div>
+        <div class="projetos">
+
+            <!--PROJETO3-->
+            <div class="card">
+                <div class="numero-projeto">
+                    01
+                </div>
+                <h3>sistema de cadastro</h3>
+                <p>
+                    descrição de sistema do cadastro
+                </p>
+                <div class="tecnologias"></div>
+                <span>HTML</span>
+                <span>CSS</span>
+                <!--<span>PHP</span-->
+            </div>
+            <a href="idade-get.php"></a>
+        </div>
+        </div>
+        </section>
+        <section id="contato" class="contato">
+            <div class="titulo-seção">
+                <p>vamos conversar?</p>
+                <h2>contato</h2>
+            </div>
+            <div class="contato-link">
+                <a href="mailto:asafe.jorge@aluno.senai.br"></a>
+                <a href="asafe.jorge@aluno.senai.br"> email</a>
+                <a href="https://github.com/AsafeGustavo/O_melhor"> GitHub</a>
+                <a href=""> linkedin</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            desenvolvedor por <a href="https://Look.devlook.xyz"> Asafe Gustavo</a>
+        </p>
+        <p>
+            HTML + CSS
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
