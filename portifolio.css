@@ -46,7 +46,7 @@ header {
 }
 
 .logo span {
-    color: #7c5cff;
+    color: #1000f0;
 }
 
 nav {
@@ -55,13 +55,13 @@ nav {
 }
 
 nav a {
-    color: #b8b8c7;
+    color: #0000ff;
     font-size: 15px;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #7c5cff;
+    color: #0000ff;
 }
 
 /* ==================== */
@@ -81,7 +81,7 @@ nav a:hover {
 }
 
 .apresentacao {
-    color: #7c5cff;
+    color: #2f00eb;
     font-size: 70px;
     line-height: 1.1;
     font-weight: bold;
@@ -119,7 +119,7 @@ nav a:hover {
 
 .botao {
     display: inline-block;
-    background-color: #7c5cff;
+    background-color: #3300ff;
     color: #ffff;
     padding: 13px 25px;
     border-radius: 8px;
@@ -128,18 +128,18 @@ nav a:hover {
 }
 
 .botao:hover {
-    background-color: #6847ff;
+    background-color: #2f00ff;
     transform: translateY(-3px);
 }
 
 .botao-secundario {
     background-color: transparent;
-    border: 1px solid #7c5cff;
-    color: #7c5cff;
+    border: 1px solid #8970eb;
+    color: #7f62f5;
 }
 
 .botao-secundario:hover {
-    background-color: #7c5cff;
+    background-color: #0084ff;
     color: #ffff;
 }
 
@@ -156,7 +156,7 @@ section {
 }
 
 .titulo-secao p {
-    color: #7c5cff;
+    color: #0f8094;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
@@ -199,7 +199,7 @@ section {
     background-color: #1d1d27;
     padding: 20px;
     border-radius: 8px;
-    border-left: 4px solid #7c5cff;
+    border-left: 4px solid #1b0088;
 }
 
 .habilidade h3 {
