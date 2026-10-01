@@ -50,62 +50,92 @@
             <a href="contato" class="botao botao secundario"> entrar em contato</a>
         </div>
         </div>
-        <section>
-
-            <!--SOBRE-->
-
-        </section id=sobre class=sobre>
-        <div class="titulo-seção"></div>
-        <p>conheça um pouco</p>
-        <h2> sobre mim</h2>
-        </div>
-        <div class="sobre conteudo">
-            <div class="sobre-texto"></div>
-            <p>
-                Sou desenvolvedor de sistemas muito dedicado
-                amo me dedicar ao meu trabalho
-            </p>
-            <p>
-                atualmente estudo muito sobre TI
-            </p>
-        </div>
-        <div class="habilidades">
-            <h3>HTML</h3>
-            <p> Estilização e criação de paginas web.</p>
-        </div>
-        <div class="habilidades">
-            <h3>CSS</h3>
-            <p> Estilização e criação de interface.</p>
-        </div>
-        <div class="habilidades">
-            <h3>PHP</h3>
-            <p> Desenvolvedor de aplicativos web.</p>
-        </div>
-        </div>
-        </section id="projetos" class="projetos-seção">
-        <div class="projetos-seção">
-            <p> alguns trabalhos</p>
-            <h2>meus projetos</h2>
-        </div>
-        <div class="projetos">
-
-            <!--PROJETO3-->
-            <div class="card">
-                <div class="numero-projeto">
-                    01
-                </div>
-                <h3>sistema de cadastro</h3>
-                <p>
-                    descrição de sistema do cadastro
-                </p>
-                <div class="tecnologias"></div>
-                <span>HTML</span>
-                <span>CSS</span>
-                <!--<span>PHP</span-->
+        <section id="sobre" class="sobre">
+            <div class="titulo-seção">
+                <p>conheça um pouco</p>
+                <h2> sobre mim</h2>
             </div>
-            <a href="idade-get.php"></a>
-        </div>
-        </div>
+            <div class="sobre conteudo">
+                <div class="sobre-texto">
+                    <p>
+                        Sou desenvolvedor de sistemas muito dedicado
+                        amo me dedicar ao meu trabalho
+                    </p>
+                    <p>
+                        atualmente estudo muito sobre TI
+                    </p>
+                </div>
+            </div>
+            <div class="habilidades">
+                <div class="habilidade">
+                    <h3>HTML</h3>
+                    <p> Estilização e criação de paginas web.</p>
+                </div>
+                <div class="habilidade">
+                    <h3>CSS</h3>
+                    <p> Estilização e criação de interface.</p>
+                </div>
+                <div class="habilidade">
+                    <h3>PHP</h3>
+                    <p> Desenvolvedor de aplicativos web.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="projetos-seção">
+            <div class="projetos-seção">
+                <p> alguns trabalhos</p>
+                <h2>meus projetos</h2>
+            </div>
+            <div class="projetos">
+
+                <!--PROJETO 1-->
+                <div class="card">
+                    <div class="numero-projeto">
+                        01
+                    </div>
+                    <h3>IDADE GET</h3>
+                    <p>
+                        descrição de sistema de IDADE GET
+                    </p>
+                    <div class="tecnologias"></div>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                </div>
+                <a href="idade-get.php"></a>
+
+                <!--PROJETO 2-->
+                <div class="card">
+                    <div class="numero-projeto">
+                        02
+                    </div>
+                    <h3>IDADE POST</h3>
+                    <p>
+                        descrição de sistema de IDADE POST
+                    </p>
+                    <div class="tecnologias"></div>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                </div>
+                <a href="idade.php"></a>
+
+                <!--PROJETO 3-->
+                <div class="card">
+                    <div class="numero-projeto">
+                        03
+                    </div>
+                    <h3>sistema em breve</h3>
+                    <p>
+                        descrição de em breve
+                    </p>
+                    <div class="tecnologias"></div>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                </div>
+                <a href="idade-get.php"></a>
+            </div>
         </section>
         <section id="contato" class="contato">
             <div class="titulo-seção">
@@ -128,15 +158,6 @@
             HTML + CSS
         </p>
     </footer>
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
