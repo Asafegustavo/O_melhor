@@ -42,8 +42,8 @@
                 Sou um programador dedicado
                 <p>
                 <div class="botoes">
-                    <a href="#projetos" class="botoes"> ver projetos</a>
-                    <a href="#contato" class="botao botao secundario"> entrar em contato</a>
+                    <a href="#projetos" class="botao"> ver projetos</a>
+                    <a href="#contato" class="botao botao-secundario"> entrar em contato</a>
                 </div>
             </div>
         </section>
