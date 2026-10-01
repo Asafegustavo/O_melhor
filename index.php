@@ -31,21 +31,22 @@
 
         <!--SESSÂO-->
 
-        <section id="inicio" class="inicio"></section>
+        <section id="inicio" class="inicio">
 
-        <div class="inicio conteudo"></div>
-        <p class="apresentaçâo" Olá, eu sou> </p>
-        <h1> Asafe</h1>
-        <h2>desenvolvedor de sistema</h2>
-        <p class="descriçâo"></p>
+            <div class="inicio conteudo">
+                <p class="apresentaçâo" Olá, eu sou> </p>
+                <h1> Asafe</h1>
+                <h2>desenvolvedor de sistema</h2>
+                <p class="descriçâo"></p>
 
-        Sou um programador dedicado
-        <p>
-        <div class="botoes">
-            <a href="projetos" class="botoes"> ver projetos</a>
-            <a href="contato" class="botao botao secundario"> entrar em contato</a>
-        </div>
-        </div>
+                Sou um programador dedicado
+                <p>
+                <div class="botoes">
+                    <a href="#projetos" class="botoes"> ver projetos</a>
+                    <a href="#contato" class="botao botao secundario"> entrar em contato</a>
+                </div>
+            </div>
+        </section>
         <section id="sobre" class="sobre">
             <div class="titulo-seção">
                 <p>conheça um pouco</p>
