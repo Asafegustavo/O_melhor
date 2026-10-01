@@ -34,10 +34,10 @@
         <section id="inicio" class="inicio">
 
             <div class="inicio conteudo">
-                <p class="apresentaçâo" Olá, eu sou> </p>
+                <p class="apresentacao" Olá, eu sou> </p>
                 <h1> Asafe</h1>
                 <h2>desenvolvedor de sistema</h2>
-                <p class="descriçâo"></p>
+                <p class="descricao"></p>
 
                 Sou um programador dedicado
                 <p>
@@ -48,7 +48,7 @@
             </div>
         </section>
         <section id="sobre" class="sobre">
-            <div class="titulo-seção">
+            <div class="titulo-secao">
                 <p>conheça um pouco</p>
                 <h2> sobre mim</h2>
             </div>
@@ -66,11 +66,11 @@
             <div class="habilidades">
                 <div class="habilidade">
                     <h3>HTML</h3>
-                    <p> Estilização e criação de paginas web.</p>
+                    <p> Estilizacao e criacao de paginas web.</p>
                 </div>
                 <div class="habilidade">
                     <h3>CSS</h3>
-                    <p> Estilização e criação de interface.</p>
+                    <p> Estilizacao e criacao de interface.</p>
                 </div>
                 <div class="habilidade">
                     <h3>PHP</h3>
@@ -78,8 +78,8 @@
                 </div>
             </div>
         </section>
-        <section id="projetos" class="projetos-seção">
-            <div class="projetos-seção">
+        <section id="projetos" class="projetos-secao">
+            <div class="projetos-secao">
                 <p> alguns trabalhos</p>
                 <h2>meus projetos</h2>
             </div>
@@ -92,7 +92,7 @@
                     </div>
                     <h3>IDADE GET</h3>
                     <p>
-                        descrição de sistema de IDADE GET
+                        descricao de sistema de IDADE GET
                     </p>
                     <div class="tecnologias"></div>
                     <span>HTML</span>
@@ -108,7 +108,7 @@
                     </div>
                     <h3>IDADE POST</h3>
                     <p>
-                        descrição de sistema de IDADE POST
+                        descricao de sistema de IDADE POST
                     </p>
                     <div class="tecnologias"></div>
                     <span>HTML</span>
@@ -124,7 +124,7 @@
                     </div>
                     <h3>sistema em breve</h3>
                     <p>
-                        descrição de em breve
+                        descricao de em breve
                     </p>
                     <div class="tecnologias"></div>
                     <span>HTML</span>
@@ -135,7 +135,7 @@
             </div>
         </section>
         <section id="contato" class="contato">
-            <div class="titulo-seção">
+            <div class="titulo-secao">
                 <p>vamos conversar?</p>
                 <h2>contato</h2>
             </div>
