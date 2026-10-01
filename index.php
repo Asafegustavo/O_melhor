@@ -33,7 +33,7 @@
 
         <section id="inicio" class="inicio">
 
-            <div class="inicio conteudo">
+            <div class="inicio-conteudo">
                 <p class="apresentacao" Olá, eu sou> </p>
                 <h1> Asafe</h1>
                 <h2>desenvolvedor de sistema</h2>
@@ -52,7 +52,7 @@
                 <p>conheça um pouco</p>
                 <h2> sobre mim</h2>
             </div>
-            <div class="sobre conteudo">
+            <div class="sobre-conteudo">
                 <div class="sobre-texto">
                     <p>
                         Sou desenvolvedor de sistemas muito dedicado
