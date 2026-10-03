@@ -130,8 +130,9 @@
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>PHP</span>
+                    <a href="dados-json.php">ver projetos</a>
                 </div>
-                <a href="dados-json.php">ver projetos</a>
+              
             </div>
         </section>
         <section id="contato" class="contato">
