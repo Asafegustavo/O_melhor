@@ -79,13 +79,13 @@ $jsonAtualizado = json_encode(
 
 file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
 
-}
+};
 
 //leitura dos dados para exibição  
 
 //lê o arquivo json
 
-$conteudoJson = file_put_contents(__DIR__ . "/dados/intro.json");
+$conteudoJson = file_get_contents(__DIR__ . "/dados/intro.json");
 
 //converte o json para array php
 
