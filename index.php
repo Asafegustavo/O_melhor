@@ -124,14 +124,14 @@
                     </div>
                     <h3>persistência de dados</h3>
                     <p>
-                        descricao de em breve
+                        descricao em breve
                     </p>
                     <div class="tecnologias"></div>
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>PHP</span>
                 </div>
-                <a href="idade-get.php"></a>
+                <a href="dados-json.php"></a>
             </div>
         </section>
         <section id="contato" class="contato">
