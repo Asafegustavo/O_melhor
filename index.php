@@ -124,14 +124,14 @@
                     </div>
                     <h3>persistência de dados</h3>
                     <p>
-                        descricao em breve
+                        descricao de sistema json
                     </p>
                     <div class="tecnologias"></div>
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>PHP</span>
                 </div>
-                <a href="dados-json.php"></a>
+                <a href="dados-json.php">ver projetos</a>
             </div>
         </section>
         <section id="contato" class="contato">
