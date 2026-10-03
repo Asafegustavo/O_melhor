@@ -129,7 +129,58 @@ $alunos = json_decode($conteudoJson, true);
          <br><br>
         <button button type="subnit">enviar</button>
     </form>
-        
+
+<h1>ALUNOS CADASTRADOS</h1>
+
+<?php
+
+    foreach($alunos as $alunos) { ?>
+        <h2><?= $alunos["nome"] ?></h2>
+        <p>idade: <?= $alunos["nome"] ?></p>
+
+        <!-- PORTUGUÊS -->
+        <h2>PORTUGUÊS</h2>
+        <P>Prova1: <?= $alunos["notas"]["portugues"]["prova1"] ?></P>
+        <P>Prova2: <?= $alunos["notas"]["portugues"]["prova2"] ?></P>
+        <P>Prova3: <?= $alunos["notas"]["portugues"]["prova3"] ?></P>
+
+         <!-- MATEMÁTICA -->
+         <h2>MATEMÁTICA</h2>
+        <P>Prova1: <?= $alunos["notas"]["matematica"]["prova1"] ?></P>
+        <P>Prova2: <?= $alunos["notas"]["matematica"]["prova2"] ?></P>
+        <P>Prova3: <?= $alunos["notas"]["matematica"]["prova3"] ?></P>
+
+        <!-- HISTÓRIA -->
+        <h2>HISTÓRIA</h2>
+        <P>Prova1: <?= $alunos["notas"]["historia"]["prova1"] ?></P>
+        <P>Prova2: <?= $alunos["notas"]["historia"]["prova2"] ?></P>
+        <P>Prova3: <?= $alunos["notas"]["historia"]["prova3"] ?></P>
+
+     <?php
+
+    } ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
 
