@@ -161,30 +161,12 @@ $alunos = json_decode($conteudoJson, true);
     } ?>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
 
-    
+
+
+
 
 
 
