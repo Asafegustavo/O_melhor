@@ -3,8 +3,9 @@
 // Ler arquivo json
 $conteudoJson = file_get_contents(__DIR__ . "/dados.json/produtos.json");
 
-// Salvar o arquivo json
-file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
+
+// Converte json para array associativo
+$alunos = json_decode($conteudoJson, true);
 
 // Método Post
 if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -15,9 +16,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $estoque = $_POST["estoque"];
     $fornecedor = $_POST["fornecedor"];
     $origem = $_POST["origem"];
-
-// Converte json para array associativo
-$alunos = json_decode($conteudoJson, true);
 
 // Organização de informações em array
 $Cadastro = [
@@ -48,9 +46,7 @@ $estoque1 = $_POST["estoque1"];
 $estoque2 = $_POST["estoque2"];
 $estoque3 = $_POST["estoque3"];
 
-$fornecedor1 = $_POST["fornecedor1"];
-$fornecedor2 = $_POST["fornecedor2"];
-$fornecedor3 = $_POST["fornecedor3"];
+$fornecedor = $_POST["fornecedor"];
 
 // Converter o array php para json
 $jsonAtualizado = json_encode(
@@ -58,6 +54,8 @@ $jsonAtualizado = json_encode(
     JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
 );
 
+// Salvar o arquivo json
+file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
 }
 
 ?>
@@ -99,8 +97,8 @@ $jsonAtualizado = json_encode(
         <input type="text" name="origem" required>
            <h2>origem</h2>
             <br><br>
-    <label>estoque</label>
-    <h2>estoque</h2>
+    <label>valor</label>
+       <h2>valor</h2>
     <label>valor1:</label>
         <input type="text" name="valor1" min="a" max="10" step="0.1" required>
             <br><br>
@@ -110,31 +108,22 @@ $jsonAtualizado = json_encode(
     <label>valor3:</label>
         <input type="text" name="valor3" min="a" max="10" step="0.1" required>
             <br><br>
-            <h2>produto</h2>
-    <label>produto1:</label>
-        <input type="text" name="produto1" min="a" max="10" step="0.1" required>
+            <h2>estoque</h2>
+    <label>estoque1:</label>
+        <input type="text" name="estoque1" min="a" max="10" step="0.1" required>
             <br><br>
-    <label>produto2:</label>
-        <input type="text" name="produto2" min="a" max="10" step="0.1" required>
+    <label>estoque2:</label>
+        <input type="text" name="estoque2" min="a" max="10" step="0.1" required>
             <br><br>
-    <label>produto3:</label>
-        <input type="text" name="produto3" min="a" max="10" step="0.1" required>
+    <label>estoque3:</label>
+        <input type="text" name="estoque3" min="a" max="10" step="0.1" required>
             <br><br>
-
-
-
-
-
-
+    <label>fornecedor</label>
+        <input type="text" name="fornecedor" required>
+           <h2>fornecedor</h2>
+            <br><br>
        
         <button button type="subnit">enviar</button>
 
 </body>
 </html>
-
-
-
-
-
-
-
