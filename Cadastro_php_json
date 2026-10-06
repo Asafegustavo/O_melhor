@@ -36,6 +36,22 @@ $produto1 = $_POST["produto1"];
 $produto2 = $_POST["produto2"];
 $produto3 = $_POST["produto3"];
 
+$marca = $_POST["marca"];
+$categoria = $_POST["categoria"];
+$origem = $_POST["origem"];
+
+$valor1 = $_POST["valor1"];
+$valor2 = $_POST["valor2"];
+$valor3 = $_POST["valor3"];
+
+$estoque1 = $_POST["estoque1"];
+$estoque2 = $_POST["estoque2"];
+$estoque3 = $_POST["estoque3"];
+
+$fornecedor1 = $_POST["fornecedor1"];
+$fornecedor2 = $_POST["fornecedor2"];
+$fornecedor3 = $_POST["fornecedor3"];
+
 // Converter o array php para json
 $jsonAtualizado = json_encode(
     $alunos,
@@ -58,19 +74,36 @@ $jsonAtualizado = json_encode(
     <form method="POST">
     <label>produto:</label>
         <input type="text" name="produto "required>
-        <br><br>
-        <label>produto:</label>
+            <br><br>
+    <label>produto:</label>
         <input type="number" name="produto" required> 
-        <h2>produto</h2>
-        <label>produto1:</label>
+          <h2>produto</h2>
+    <label>produto1:</label>
         <input type="number" name="produto1" min="a" max="10" step="0.1" required>
-        <br><br>
-        <label>produto2:</label>
+            <br><br>
+    <label>produto2:</label>
         <input type="number" name="produto2" min="a" max="10" step="0.1" required>
-        <br><br>
-        <label>produto3:</label>
+            <br><br>
+    <label>produto3:</label>
         <input type="number" name="produto3" min="a" max="10" step="0.1" required>
-         <br><br>
+            <br><br>
+    <label>marca</label>
+        <input type="text" name="marca" min="a" max="10" step="0.1" required>
+            <br><br>
+    <label>categoria</label>
+        <input type="text">
+
+
+
+
+
+
+
+
+
+
+
+
        
         <button button type="subnit">enviar</button>
 
