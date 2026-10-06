@@ -67,7 +67,7 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <form method="POST">
             <h2>PRODUTO</h2>
     <label>produto:</label>
-        <input type="text" name="produto1" min="a" required>
+        <input type="text" name="produto" min="a" required>
             <br><br>
             <h2>MARCA</h2>
         <label>marca:</label>
@@ -105,13 +105,13 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
 
 <p>Marca: <?= $produto["marca"] ?></p>
 
-<p>Preço: <?= $produto["preço"] ?></p>
+<p>valor: <?= $produto["valor"] ?></p>
 
 <p>Estoque: <?= $produto["estoque"] ?></p>
 
-<p>Fabricante: <?= $produto["fabricante"] ?></p>
+<p>fornecedor: <?= $produto["fornecedor"] ?></p>
 
-<p>Pais: <?= $produto["pais de origem"] ?></p>
+<p>origem: <?= $produto["origem"] ?></p>
 
 
 
