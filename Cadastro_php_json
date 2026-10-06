@@ -1,5 +1,11 @@
 <?php
 
+// Ler arquivo json
+$conteudoJson = file_get_contents(__DIR__ . "/dados.json/produtos.json");
+
+// Salvar o arquivo json
+file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
+
 // Método Post
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     $produto = $_POST["produto"];
@@ -9,6 +15,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $estoque = $_POST["estoque"];
     $fornecedor = $_POST["fornecedor"];
     $origem = $_POST["origem"];
+
+// Converte json para array associativo
+$alunos = json_decode($conteudoJson, true);
 
 // Organização de informações em array
 $Cadastro = [
@@ -22,9 +31,6 @@ $Cadastro = [
 
 ];
 
-// Converte json para array associativo
-$alunos = json_decode($conteudoJson, true);
-
 // Receber informações
 $produto1 = $_POST["produto1"];
 $produto2 = $_POST["produto2"];
@@ -34,10 +40,12 @@ $categoria1 = $_POST["categoria1"];
 $categoria2 = $_POST["categoria2"];
 $categoria3 = $_POST["categoria3"];
 
-// Ler arquivo json
-$conteudoJson = file_get_contents(__DIR__ . "/dados.json/produtos.json");
 
-
+// Converter o array php para json
+$jsonAtualizado = json_encode(
+    $alunos,
+    JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
+);
 
 
 
