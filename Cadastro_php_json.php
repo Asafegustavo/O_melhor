@@ -35,16 +35,14 @@ $produto2 = $_POST["produto2"];
 $produto3 = $_POST["produto3"];
 
 $marca = $_POST["marca"];
+
 $categoria = $_POST["categoria"];
+
 $origem = $_POST["origem"];
 
-$valor1 = $_POST["valor1"];
-$valor2 = $_POST["valor2"];
-$valor3 = $_POST["valor3"];
+$valor = $_POST["valor1"];
 
-$estoque1 = $_POST["estoque1"];
-$estoque2 = $_POST["estoque2"];
-$estoque3 = $_POST["estoque3"];
+$estoque = $_POST["estoque1"];
 
 $fornecedor = $_POST["fornecedor"];
 
@@ -93,14 +91,8 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <input type="text" name="origem" required>
             <br><br>
        <h2>VALOR</h2>
-    <label>valor1:</label>
+    <label>valor:</label>
         <input type="number" name="valor1" min="a" step="0.1" required>
-            <br><br>
-    <label>valor2:</label>
-        <input type="number" name="valor2" min="a" step="0.1" required>
-            <br><br>
-    <label>valor3:</label>
-        <input type="number" name="valor3" min="a" step="0.1" required>
             <br><br>
             <h2>ESTOQUE</h2>
     <label>estoque:</label>
