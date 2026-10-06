@@ -68,10 +68,9 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <title>Document</title>
 </head>
 <body>
-    <h1>cadastro de produtos</h1>
+    <h1>CADASTRO DE PRODUTOS</h1>
     <form method="POST">
             <h2>PRODUTO</h2>
-            <br><br>
     <label>produto1:</label>
         <input type="text" name="produto1" min="a" max="10" step="0.1" required>
             <br><br>
@@ -81,19 +80,19 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <label>produto3:</label>
         <input type="text" name="produto3" min="a" max="10" step="0.1" required>
             <br><br>
-            <h2>MARCA:</h2>
+            <h2>MARCA</h2>
+        <label>marca:</label>
         <input type="text" name="marca" required>
-        <label>marca</label>
             <br><br>
-            <h2>CATEGORIA:</h2>
+            <h2>CATEGORIA</h2>
+    <label>categoria:</label>
         <input type="text" name="categoria" required>
-        <label>categoria</label>
             <br><br>
             <h2>ORIGEM:</h2>
+    <label>origem:</label>
         <input type="text" name="origem" required>
-           <label>origem</label>
             <br><br>
-       <h2>VALOR:</h2>
+       <h2>VALOR</h2>
     <label>valor1:</label>
         <input type="number" name="valor1" min="a" max="10" step="0.1" required>
             <br><br>
@@ -114,8 +113,8 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <input type="text" name="estoque3" min="a" max="10" step="0.1" required>
             <br><br>
    <h2>FORNECEDOR</h2>
+   <label>fornecedor:</label>
         <input type="text" name="fornecedor" required>
-        <label>fornecedor</label>
             <br><br>
        
         <button button type="subnit">enviar</button>
