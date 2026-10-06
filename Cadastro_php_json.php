@@ -111,12 +111,12 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <input type="text" name="fornecedor" required>
             <br><br>
        
-        <button button type="subnit">enviar</button>
+        <button button type="submit">enviar</button>
 <h1>PRODUTOS CADASTRADOS</h1>
 
 <?php
 
-    foreach
+    
 
 
 
