@@ -70,8 +70,9 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
 <body>
     <h1>cadastro de produtos</h1>
     <form method="POST">
-    <label>produto:</label>
+            <h2>PRODUTO</h2>
         <input type="text" name="produto "required>
+        <label>produto:</label>
             <br><br>
     <label>produto1:</label>
         <input type="text" name="produto1" min="a" max="10" step="0.1" required>
@@ -82,26 +83,29 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <label>produto3:</label>
         <input type="text" name="produto3" min="a" max="10" step="0.1" required>
             <br><br>
-    <label>marca</label>
+            <h2>MARCA</h2>
         <input type="text" name="marca" required>
+        <label>marca</label>
             <br><br>
-    <label>categoria</label>
+            <h2>CATEGORIA</h2>
         <input type="text" name="categoria" required>
+        <label>categoria</label>
             <br><br>
-    <label>origem</label>
+            <h2>ORIGEM</h2>
         <input type="text" name="origem" required>
+           <label>origem</label>
             <br><br>
-       <h2>valor</h2>
+       <h2>VALOR</h2>
     <label>valor1:</label>
-        <input type="text" name="valor1" min="a" max="10" step="0.1" required>
+        <input type="number" name="valor1" min="a" max="10" step="0.1" required>
             <br><br>
     <label>valor2:</label>
-        <input type="text" name="valor2" min="a" max="10" step="0.1" required>
+        <input type="number" name="valor2" min="a" max="10" step="0.1" required>
             <br><br>
     <label>valor3:</label>
-        <input type="text" name="valor3" min="a" max="10" step="0.1" required>
+        <input type="number" name="valor3" min="a" max="10" step="0.1" required>
             <br><br>
-            <h2>estoque</h2>
+            <h2>ESTOQUE</h2>
     <label>estoque1:</label>
         <input type="text" name="estoque1" min="a" max="10" step="0.1" required>
             <br><br>
@@ -111,9 +115,9 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <label>estoque3:</label>
         <input type="text" name="estoque3" min="a" max="10" step="0.1" required>
             <br><br>
-    <label>fornecedor</label>
+   <h2>FORNECEDOR</h2>
         <input type="text" name="fornecedor" required>
-           <h2>fornecedor</h2>
+        <label>fornecedor</label>
             <br><br>
        
         <button button type="subnit">enviar</button>
