@@ -71,7 +71,7 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <h1>cadastro de produtos</h1>
     <form method="POST">
             <h2>PRODUTO</h2>
-        <input type="text" name="produto "required>
+       
         <label>produto:</label>
             <br><br>
     <label>produto1:</label>
@@ -83,19 +83,19 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <label>produto3:</label>
         <input type="text" name="produto3" min="a" max="10" step="0.1" required>
             <br><br>
-            <h2>MARCA</h2>
+            <h2>MARCA:</h2>
         <input type="text" name="marca" required>
         <label>marca</label>
             <br><br>
-            <h2>CATEGORIA</h2>
+            <h2>CATEGORIA:</h2>
         <input type="text" name="categoria" required>
         <label>categoria</label>
             <br><br>
-            <h2>ORIGEM</h2>
+            <h2>ORIGEM:</h2>
         <input type="text" name="origem" required>
            <label>origem</label>
             <br><br>
-       <h2>VALOR</h2>
+       <h2>VALOR:</h2>
     <label>valor1:</label>
         <input type="number" name="valor1" min="a" max="10" step="0.1" required>
             <br><br>
