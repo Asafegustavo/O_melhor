@@ -30,9 +30,7 @@ $Cadastro = [
 ];
 
 // Receber informações
-$produto1 = $_POST["produto1"];
-$produto2 = $_POST["produto2"];
-$produto3 = $_POST["produto3"];
+$produto1 = $_POST["produto"];
 
 $marca = $_POST["marca"];
 
@@ -69,14 +67,8 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <h1>CADASTRO DE PRODUTOS</h1>
     <form method="POST">
             <h2>PRODUTO</h2>
-    <label>produto1:</label>
-        <input type="text" name="produto1" min="a" max="10" step="0.1" required>
-            <br><br>
-    <label>produto2:</label>
-        <input type="text" name="produto2" min="a" max="10" step="0.1" required>
-            <br><br>
-    <label>produto3:</label>
-        <input type="text" name="produto3" min="a" max="10" step="0.1" required>
+    <label>produto:</label>
+        <input type="text" name="produto1" min="a" required>
             <br><br>
             <h2>MARCA</h2>
         <label>marca:</label>
@@ -92,7 +84,7 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
             <br><br>
        <h2>VALOR</h2>
     <label>valor:</label>
-        <input type="number" name="valor1" min="a" step="0.1" required>
+        <input type="number" name="valor" min="a" step="0.1" required>
             <br><br>
             <h2>ESTOQUE</h2>
     <label>estoque:</label>
