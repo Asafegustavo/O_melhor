@@ -94,23 +94,17 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
             <br><br>
        <h2>VALOR</h2>
     <label>valor1:</label>
-        <input type="number" name="valor1" min="a" max="10" step="0.1" required>
+        <input type="number" name="valor1" min="a" step="0.1" required>
             <br><br>
     <label>valor2:</label>
-        <input type="number" name="valor2" min="a" max="10" step="0.1" required>
+        <input type="number" name="valor2" min="a" step="0.1" required>
             <br><br>
     <label>valor3:</label>
-        <input type="number" name="valor3" min="a" max="10" step="0.1" required>
+        <input type="number" name="valor3" min="a" step="0.1" required>
             <br><br>
             <h2>ESTOQUE</h2>
-    <label>estoque1:</label>
-        <input type="text" name="estoque1" min="a" max="10" step="0.1" required>
-            <br><br>
-    <label>estoque2:</label>
-        <input type="text" name="estoque2" min="a" max="10" step="0.1" required>
-            <br><br>
-    <label>estoque3:</label>
-        <input type="text" name="estoque3" min="a" max="10" step="0.1" required>
+    <label>estoque:</label>
+        <input type="number" name="estoque" min="a"  step="0.1" required>
             <br><br>
    <h2>FORNECEDOR</h2>
    <label>fornecedor:</label>
@@ -119,5 +113,35 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
        
         <button button type="subnit">enviar</button>
 <h1>PRODUTOS CADASTRADOS</h1>
+
+<?php
+
+    foreach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
