@@ -3,7 +3,6 @@
 // Ler arquivo json
 $conteudoJson = file_get_contents(__DIR__ . "/dados.json/produtos.json");
 
-
 // Converte json para array associativo
 $alunos = json_decode($conteudoJson, true);
 
@@ -98,6 +97,25 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <button button type="submit">enviar</button>
 <h1>PRODUTOS CADASTRADOS</h1>
 
+<?php foreach ($produto as $produto) { ?>
+
+<h2> <?= $produto["produto"]  ?> </h2>
+
+<p>categoria<?= $produto["categoria"] ?> </p>
+
+<p>Marca: <?= $produto["marca"] ?></p>
+
+<p>Preço: <?= $produto["preço"] ?></p>
+
+<p>Estoque: <?= $produto["estoque"] ?></p>
+
+<p>Fabricante: <?= $produto["fabricante"] ?></p>
+
+<p>Pais: <?= $produto["pais de origem"] ?></p>
+
+
+
+<?php } ?>
 
 
     
