@@ -124,6 +124,6 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
             <br><br>
        
         <button button type="subnit">enviar</button>
-
+<h1>PRODUTOS CADASTRADOS</h1>
 </body>
 </html>
