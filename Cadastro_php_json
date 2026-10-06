@@ -79,7 +79,7 @@ $jsonAtualizado = json_encode(
         <input type="text" name="produto" required> 
           <h2>produto</h2>
     <label>produto1:</label>
-        <input type="textr" name="produto1" min="a" max="10" step="0.1" required>
+        <input type="text" name="produto1" min="a" max="10" step="0.1" required>
             <br><br>
     <label>produto2:</label>
         <input type="text" name="produto2" min="a" max="10" step="0.1" required>
@@ -88,15 +88,28 @@ $jsonAtualizado = json_encode(
         <input type="text" name="produto3" min="a" max="10" step="0.1" required>
             <br><br>
     <label>marca</label>
-        <input type="text" name="marca" min="a" max="10" step="0.1" required>
+        <input type="text" name="marca" required>
+           <h2>marca</h2>
             <br><br>
     <label>categoria</label>
-        <input type="text" name="categoria" min="a" max="10" step="0.1" required>
+        <input type="text" name="categoria" required>
+           <h2>categoria</h2>
             <br><br>
     <label>origem</label>
-        <input type="text" name="origem" min="a" max="10" step="0.1" required>
+        <input type="text" name="origem" required>
+           <h2>origem</h2>
             <br><br>
-
+    <label>valor</label>
+    <h2>valor</h2>
+    <label>valor1:</label>
+        <input type="text" name="valor1" min="a" max="10" step="0.1" required>
+            <br><br>
+    <label>valor2:</label>
+        <input type="text" name="valor2" min="a" max="10" step="0.1" required>
+            <br><br>
+    <label>valor3:</label>
+        <input type="text" name="valor3" min="a" max="10" step="0.1" required>
+            <br><br>
 
 
 
