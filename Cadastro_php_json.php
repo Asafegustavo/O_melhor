@@ -73,9 +73,6 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <label>produto:</label>
         <input type="text" name="produto "required>
             <br><br>
-    <label>produto:</label>
-        <input type="text" name="produto" required> 
-          <h2>produto</h2>
     <label>produto1:</label>
         <input type="text" name="produto1" min="a" max="10" step="0.1" required>
             <br><br>
@@ -87,17 +84,13 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
             <br><br>
     <label>marca</label>
         <input type="text" name="marca" required>
-           <h2>marca</h2>
             <br><br>
     <label>categoria</label>
         <input type="text" name="categoria" required>
-           <h2>categoria</h2>
             <br><br>
     <label>origem</label>
         <input type="text" name="origem" required>
-           <h2>origem</h2>
             <br><br>
-    <label>valor</label>
        <h2>valor</h2>
     <label>valor1:</label>
         <input type="text" name="valor1" min="a" max="10" step="0.1" required>
