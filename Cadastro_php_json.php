@@ -114,7 +114,7 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <button button type="submit">enviar</button>
 <h1>PRODUTOS CADASTRADOS</h1>
 
-<?php
+
 
     
 
