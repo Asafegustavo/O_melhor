@@ -71,8 +71,6 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
     <h1>cadastro de produtos</h1>
     <form method="POST">
             <h2>PRODUTO</h2>
-       
-        <label>produto:</label>
             <br><br>
     <label>produto1:</label>
         <input type="text" name="produto1" min="a" max="10" step="0.1" required>
