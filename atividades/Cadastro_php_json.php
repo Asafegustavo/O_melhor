@@ -101,6 +101,10 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <h2> <?= $produto["produto"]  ?> </h2>
         <p>produto <?= $produto["produto"] ?> </p>
 
+        
+
+
+
 <?php } ?>
 
 

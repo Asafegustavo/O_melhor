@@ -57,7 +57,7 @@ $novoAluno = [
 
 //serve para ler/abrir arquivo json
 
-$conteudoJson = file_get_contents(__DIR__ . "/dados/intro.json");
+$conteudoJson = file_get_contents(__DIR__ . "../dados/intro.json");
 
 //serve para converter json para array php
 // o true serve para converter o json em array associativo para php ler

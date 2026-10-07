@@ -14,7 +14,7 @@
 
     <header>
         <div class="logo">
-            <h2>asafe <span>gustavo</span></h2>
+            <h2>Asafe <span>gustavo</span></h2>
         </div>
 
         <nav>
