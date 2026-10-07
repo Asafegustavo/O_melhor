@@ -97,23 +97,9 @@ file_put_contents(__DIR__ . "/dados/intro.json", $jsonAtualizado);
         <button button type="submit">enviar</button>
 <h1>PRODUTOS CADASTRADOS</h1>
 
-<?php foreach ($produto as $produto) { ?>
-
-<h2> <?= $produto["produto"]  ?> </h2>
-
-<p>categoria<?= $produto["categoria"] ?> </p>
-
-<p>Marca: <?= $produto["marca"] ?></p>
-
-<p>valor: <?= $produto["valor"] ?></p>
-
-<p>Estoque: <?= $produto["estoque"] ?></p>
-
-<p>fornecedor: <?= $produto["fornecedor"] ?></p>
-
-<p>origem: <?= $produto["origem"] ?></p>
-
-
+    <?php foreach ($produto as $produto) { ?>
+        <h2> <?= $produto["produto"]  ?> </h2>
+        <p>produto <?= $produto["produto"] ?> </p>
 
 <?php } ?>
 
