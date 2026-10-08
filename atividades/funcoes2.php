@@ -24,6 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] ==
     <title>funções no front</title>
 </head>
 <body>
+    <form action="POST">
         <label>NOTA1</label>
             <h2>nota1:</h2>
     <input type="number" class="nota1" min="a" step="0.1" required>
@@ -33,5 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] ==
     <input type="number" class="nota2" min="a" step="0.1" required>
                 <br><br>
                     <button button type="submit">enviar</button>
+                </form>
+            <h2><?= $situacao ?></h2>
 </body>
 </html>

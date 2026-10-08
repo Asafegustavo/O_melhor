@@ -29,9 +29,13 @@ function calcularMedia($nota1, $nota2) {
 
 function verificarStatus($media) {
     // Média é?
-    // 
+    
+    if ($media >=7) {
+        return "APROVADO!";
+    } else {
+        return "REPROVADO!";
+    }
 
 }
-
 
 ?>
